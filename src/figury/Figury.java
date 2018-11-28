@@ -9,7 +9,7 @@ public class Figury {
 
         Kwadrat k = new Kwadrat(5);
         List<Figurable> f = Arrays.asList(p, k);
-
+//
         for (Figurable ff : f) {
             System.out.println(ff);
             System.out.println("Pole : " + ff.obliczPole());
